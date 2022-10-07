@@ -1,0 +1,8 @@
+C:\Users\osand\source\repos\DC_Assignment_01_OB_Hettiarachchi_20908883\Authenticator\bin\Debug\Authenticator.exe.config
+C:\Users\osand\source\repos\DC_Assignment_01_OB_Hettiarachchi_20908883\Authenticator\bin\Debug\Authenticator.exe
+C:\Users\osand\source\repos\DC_Assignment_01_OB_Hettiarachchi_20908883\Authenticator\bin\Debug\Authenticator.pdb
+C:\Users\osand\source\repos\DC_Assignment_01_OB_Hettiarachchi_20908883\Authenticator\obj\Debug\Authenticator.csproj.AssemblyReference.cache
+C:\Users\osand\source\repos\DC_Assignment_01_OB_Hettiarachchi_20908883\Authenticator\obj\Debug\Authenticator.csproj.SuggestedBindingRedirects.cache
+C:\Users\osand\source\repos\DC_Assignment_01_OB_Hettiarachchi_20908883\Authenticator\obj\Debug\Authenticator.csproj.CoreCompileInputs.cache
+C:\Users\osand\source\repos\DC_Assignment_01_OB_Hettiarachchi_20908883\Authenticator\obj\Debug\Authenticator.exe
+C:\Users\osand\source\repos\DC_Assignment_01_OB_Hettiarachchi_20908883\Authenticator\obj\Debug\Authenticator.pdb

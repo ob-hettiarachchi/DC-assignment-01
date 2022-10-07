@@ -1,0 +1,14 @@
+﻿<Window x:Class="ClientGUI.Testing"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ClientGUI"
+        mc:Ignorable="d"
+        Title="Testing" Height="450" Width="800">
+    <Grid Background="#FFFFCCCC">
+        <Label Content="Testing" HorizontalAlignment="Center" Margin="0,27,0,0" VerticalAlignment="Top" Height="46" Width="196" FontSize="24" HorizontalContentAlignment="Center" FontFamily="Century Gothic" FontWeight="Bold"/>
+        <ListBox x:Name="listBoxServices" HorizontalAlignment="Left" Height="300" Margin="100,87,0,0" VerticalAlignment="Top" Width="285" FontSize="20"/>
+        <Button x:Name="btnSelectService" Content="Select" HorizontalAlignment="Left" Margin="520,217,0,0" VerticalAlignment="Top" Width="88" FontSize="20" Height="33" FontFamily="Century Gothic" FontWeight="Bold" Background="#FF47FF0E"/>
+    </Grid>
+</Window>

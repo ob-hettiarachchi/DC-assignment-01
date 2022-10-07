@@ -1,0 +1,25 @@
+﻿<Window x:Class="ClientGUI.Search"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ClientGUI"
+        mc:Ignorable="d"
+        Title="Search" Height="450" Width="800">
+    <Grid Background="#FFFFD21B">
+        <Label Content="Search Services" HorizontalAlignment="Left" Margin="280,26,0,0" VerticalAlignment="Top" Height="58" Width="229" FontSize="24" HorizontalContentAlignment="Center" FontFamily="Century Gothic" FontWeight="Bold" Foreground="Black"/>
+        <Button x:Name="btnSearch" Content="Search" HorizontalAlignment="Left" Margin="625,95,0,0" VerticalAlignment="Top" Width="110" FontSize="20" Height="34" FontFamily="Century Gothic" FontWeight="Bold" Foreground="White" Background="Black" Click="GetAll_Services"/>
+        <TextBox x:Name="search" HorizontalAlignment="Left" Height="34" Margin="43,95,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="554" FontSize="20"/>
+        <ProgressBar x:Name="ProgressBar1" HorizontalAlignment="Left" Height="10" Margin="344,140,0,0" VerticalAlignment="Top" Width="100"/>
+        <Button x:Name="btntest" Content="All Services" HorizontalAlignment="Left" Margin="330,380,0,0" VerticalAlignment="Top" Width="128" FontSize="20" Height="34" FontFamily="Century Gothic" FontWeight="Bold" Foreground="White" Background="Black" Click="opentest"/>
+        <DataGrid AutoGenerateColumns="False" x:Name="serviceInfo" HorizontalAlignment="Left" Height="196" Margin="26,163,0,0" VerticalAlignment="Top" Width="736">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Name" IsReadOnly="True" Binding="{Binding Name}" Width="180"></DataGridTextColumn>
+                <DataGridTextColumn Header="Description" IsReadOnly="True" Binding="{Binding Description}" Width="230"></DataGridTextColumn>
+                <DataGridTextColumn Header="API EndPoint" IsReadOnly="True" Binding="{Binding APIEndPoint}" Width="100"></DataGridTextColumn>
+                <DataGridTextColumn Header="No. of Operands" IsReadOnly="True" Binding="{Binding NoOfOperands}" Width="100"></DataGridTextColumn>
+                <DataGridTextColumn Header="OperandType" IsReadOnly="True" Binding="{Binding OperandType}" Width="125"></DataGridTextColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</Window>
